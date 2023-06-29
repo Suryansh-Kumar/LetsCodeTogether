@@ -1,0 +1,143 @@
+#skill-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#card-container-html {
+    padding: 3px 8px;
+    background-color: white;
+    height: 15vw;
+    width: 50vw;
+    border: 2px solid rgb(184, 181, 181);
+    border-radius: 18px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+#card-container-python {
+    padding: 3px 8px;
+    background-color: white;
+    height: 15vw;
+    width: 50vw;
+    border: 2px solid rgb(184, 181, 181);
+    border-radius: 18px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+#card-container-css {
+    padding: 3px 8px;
+    background-color: white;
+    height: 15vw;
+    width: 50vw;
+    border: 2px solid rgb(184, 181, 181);
+    border-radius: 18px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+#card-container-js {
+    padding: 3px 8px;
+    background-color: white;
+    height: 15vw;
+    width: 50vw;
+    border: 2px solid rgb(184, 181, 181);
+    border-radius: 18px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+#card-container-c {
+    padding: 3px 8px;
+    background-color: white;
+    height: 15vw;
+    width: 50vw;
+    border: 2px solid rgb(184, 181, 181);
+    border-radius: 18px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+#card-container-bootstrap {
+    padding: 3px 8px;
+    background-color: white;
+    height: 15vw;
+    width: 50vw;
+    border: 2px solid rgb(184, 181, 181);
+    border-radius: 18px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+#card-container-tailwind {
+    padding: 3px 8px;
+    background-color: white;
+    height: 15vw;
+    width: 50vw;
+    border: 2px solid rgb(184, 181, 181);
+    border-radius: 18px;
+}
+
+
+.btn {
+    padding: 5px 10px;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #7e22ce;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #9128ec;
+}
+
+.btn-2 {
+    margin: 0 3px;
+}
+
+h2 {
+    color: #7e22ce;
+    margin: 12px 0px;
+}
+
+.language {
+    display: flex;
+    justify-content: space-between;
+}
+
+.html-img {
+    height: 4em;
+    width: 4em;
+    border: 0px solid white;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.html-img :hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+.highlight {
+    opacity: 0.5;
+}
+
+.desc {
+    color: #6b7280;
+}
+
+.introduction {
+    color: #6b7280;
+}
+
+.btn-main-1 {
+    margin-right: 3px;
+}
+
+.btn-main-page {
+    margin-top: 15px;
+}

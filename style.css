@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    color: #7e22ce;
+    overflow-x: hidden;
+}
+
+.navbar {
+    padding: 1.5rem 0;
+    width: 100vw;
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid #e5e7eb;
+}
+
+.navbar-ul {
+    display: flex;
+    margin-right: 1.875rem;
+}
+
+#blog-name {
+    margin-left: 1.875rem;
+    cursor: pointer;
+}
+
+#blog-name>a {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.25em;
+    color: #7e22ce;
+}
+
+.navbar-ul-li {
+    cursor: pointer;
+    list-style: none;
+    margin: 0 1rem;
+    font-size: large;
+    transition: all 0.1s ease-in-out;
+    color: black;
+}
+
+.navbar-ul-li:is(:hover) {
+    border-bottom: 2px solid #7e22ce;
+    transform: translateY(-10%);
+}
+
+.my-skills {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    padding: 13px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-skills-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.my-skills-ul-li {
+    cursor: pointer;
+    list-style: none;
+    margin: 0 1rem;
+    font-size: large;
+    font-weight: 500;
+    transition: all 0.1s ease-in-out;
+}
+
+.my-skills-ul-li:is(:hover) {
+    border-bottom: 2px solid #7e22ce;
+    transform: translateY(-10%);
+}
+
+.img-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.con-img {
+    width: 50%;
+    color: #7e22ce;
+    cursor: pointer;
+}
+
+.container {
+    width: 84.6vw;
+    height: 75vh;
+    margin: 1em auto;
+    color: black;
+    display: flex;
+}
+
+#hr-1 {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+#blog-name-main {
+    color: #7e22ce;
+    text-decoration: none;
+}
+
+#skills-name {
+    margin: 7px 0;
+    color: black;
+}
+
+.skill-name {
+    color: #7e22ce;
+}
+
+.left-container {
+    width: 45vw;
+}
+
+.right-container {
+    width: 35vw;
+    text-align: end;
+
+}
+
+.right-container>img {
+
+    border: 0px solid white;
+    border-radius: 10px;
+    height: 425px;
+}
+
+.underline {
+    border-bottom: 3px solid #7e22ce;
+}
