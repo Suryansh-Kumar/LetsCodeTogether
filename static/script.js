@@ -2,7 +2,6 @@ html = document.getElementById("html");
 python = document.getElementById("python");
 css = document.getElementById("css");
 js = document.getElementById("js");
-c = document.getElementById("c");
 tailwind = document.getElementById("tailwind");
 bootstrap = document.getElementById("bootstrap");
 main_con = document.getElementById("main-con");
@@ -43,14 +42,6 @@ function toggleHiddenJS() {
 		card_container_js.removeAttribute("hidden");
 	} else {
 		card_container_js.setAttribute("hidden", "");
-	}
-}
-
-function toggleHiddenC() {
-	if (card_container_c.hasAttribute("hidden")) {
-		card_container_c.removeAttribute("hidden");
-	} else {
-		card_container_c.setAttribute("hidden", "");
 	}
 }
 
@@ -104,15 +95,6 @@ js.addEventListener("click", () => {
 	}
 	// main_con.classList.add("highlight");
 	toggleHiddenJS();
-});
-c.addEventListener("click", () => {
-	if (main_con.classList.contains("highlight")) {
-		main_con.classList.remove("highlight");
-	} else {
-		main_con.classList.add("highlight");
-	}
-	// main_con.classList.add("highlight");
-	toggleHiddenC();
 });
 tailwind.addEventListener("click", () => {
 	if (main_con.classList.contains("highlight")) {
