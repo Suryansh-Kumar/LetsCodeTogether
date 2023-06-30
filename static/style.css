@@ -89,7 +89,7 @@ body {
 
 .container {
   width: 84.6vw;
-  height: 75vh;
+  height: 40vh;
   margin: 1em auto;
   color: black;
   display: flex;
@@ -125,7 +125,7 @@ body {
 .right-container > img {
   border: 0px solid white;
   border-radius: 10px;
-  height: 425px;
+  height: 300px;
 }
 
 .underline {
