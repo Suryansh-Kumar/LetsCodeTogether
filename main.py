@@ -136,7 +136,21 @@ def home():
         </div>
       </div>
     """
-    return render_template("index.html", skills=SKILLS, html=html_code, name="LetsCodeTogether")
+    project_card_content = {
+        "card1": {
+            "image_url": "/static/img/portfolio.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti excepturi consequuntur pariatur repellendus a et quasi optio voluptatum quaerat, vero, nam eligendi. Hic, numquam atque itaque necessitatibus autem reiciendis maiores quidem doloribus quisquam quaerat provident soluta vero expedita totam ipsum."
+        },
+        "card2":  {
+            "image_url": "/static/img/portfolio.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti excepturi consequuntur pariatur repellendus a et quasi optio voluptatum quaerat, vero, nam eligendi. Hic, numquam atque itaque necessitatibus autem reiciendis maiores quidem doloribus quisquam quaerat provident soluta vero expedita totam ipsum."
+        },
+        "card3":  {
+            "image_url": "/static/img/portfolio.png",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti excepturi consequuntur pariatur repellendus a et quasi optio voluptatum quaerat, vero, nam eligendi. Hic, numquam atque itaque necessitatibus autem reiciendis maiores quidem doloribus quisquam quaerat provident soluta vero expedita totam ipsum."
+        },
+    }
+    return render_template("index.html", skills=SKILLS, html=html_code, name="LetsCodeTogether", pcc=project_card_content)
 
 
 if __name__ == "__main__":

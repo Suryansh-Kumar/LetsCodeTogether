@@ -20,29 +20,29 @@
         </ul>
       </nav>
 
-      <section id="skills">
-        <nav class="my-skills">
-          <a href="/" class="img-con"
-            ><img class="con-img" src="static/img/home.png" alt=""
-          /></a>
-          <ul class="my-skills-ul">
-            {% for skill in skills %} {% include 'skills.html' %} {% endfor %}
-          </ul>
-          <span class="img-con"
-            ><img class="con-img" src="static/img/search.png" alt=""
-          /></span>
-        </nav>
-      </section>
+      <nav class="my-skills">
+        <a href="/" class="img-con"
+          ><img class="con-img home-ico" src="static/img/home.png" alt=""
+        /></a>
+        <ul class="my-skills-ul">
+          {% for skill in skills %} {% include 'skills.html' %} {% endfor %}
+        </ul>
+        <span class="img-con"
+          ><img class="con-img" src="static/img/search.png" alt=""
+        /></span>
+      </nav>
       <section id="skill-desc">{{ html | safe }}</section>
     </header>
     <main id="main-con">
-      <section class="container">
+      <section class="flex-container">
         <div class="left-container">
           <h1>
             Welcome to
             <abbr title="LTC" id="blog-name-main">{{name}}</abbr>
           </h1>
-          <h2 id="skills-name">Skills You will get here: <span class="skill-name"></span></h2>
+          <h2 id="skills-name">
+            Skills You will get here: <span class="skill-name"></span>
+          </h2>
           <p class="introduction">
             Confused on which course to take? I have got you covered. Browse
             courses and find out the best course for you. Its free! Code With
@@ -62,8 +62,22 @@
           <img src="static/img/group-programmers.jpg" alt="" />
         </div>
       </section>
-      <hr id="hr-2">
-      
+      <hr class="hr-shadow" />
+      <section class="projects-container">
+        <div id="project-h1">
+          <h1>Some Projects</h1>
+          <img id="firstArrow" src="/static/img/arrowpng.png" alt="" />
+        </div>
+        <div class="projects-con">
+          {% for key, value in pcc.items() %}
+          <div class="project-card">
+            <img src="{{ value.image_url }}" class="card-img" alt="Card Image" />
+            <div class="card-content">{{ value.content }}</div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+      <!-- <hr class="hr-shadow" /> -->
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
